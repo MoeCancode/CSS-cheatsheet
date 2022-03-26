@@ -11,14 +11,117 @@
 
 <body>
     <header>
-        <h1>CSS CHeatsheets</h1>
+        <h1>CSS Cheatsheets</h1>
     </header>
     <hr>
 
+    <!--This section is creating the 6 cards. Each card falls in the "box" class and has a unique id incase we need 
+        to target it specifically-->
     <section>
-        <div class =box>
-            <h2>FLex-box row</h2>
-            <p>Use these 3 properties to create a flexbox layout</p>
+        <!--Box one-->
+        <div class ="box" id="one">
+            <div class="titles">
+                <h2>Flex-box row</h2>
+            </div>
+
+            <div class="description">
+                <p>Use these 3 properties to create a flexbox layout</p>
+                <code>.row { <br>
+                    display:flex; <br>
+                    flex-direction: row; <br> 
+                    flex-wrap: wrap; <br> 
+                    } 
+                </code>
+            </div>
+        </div>
+        
+        <!--Box two-->
+        <div class ="box" id="two">
+            <div class="titles">
+                <h2>Flex-box column</h2>
+            </div>
+
+            <div class="description">
+                <p>Use this to create a flexbox column layout</p>
+                <code>.column { <br> 
+                    display: flex; <br> 
+                    flex-direction: column; <br> 
+                    } 
+                </code>
+            </div>
+        </div>
+
+        <!--Box three-->
+        <div class ="box" id="three">
+            <div class="titles">
+                <h2>CSS grid layout</h2>
+            </div>
+
+            <div class="description">
+                <p>Build a 12-column layout using CSS grid</p>
+                <code>.grid { <br> 
+                    display: grid; <br> 
+                    width: 100% <br> 
+                    grid-template-columns: repeat(12, 1fr); 
+                    <br> 
+                    } 
+                </code>
+            </div>
+        </div>
+
+        <!--Box four-->
+        <div class ="box" id="four">
+            <div class="titles">
+                <h2>Linear Gradients</h2>
+            </div>
+
+            <div class="description">
+                <p>This will create a background linear gradient from top to bottom</p>
+                <code>.linear-gradient-background { <br> 
+                    background-image: linear-gradient(<br>
+                    rgba(232, 102, 236, 0.3) 0%, <br>
+                    rgba(232, 102, 236, 0.6) 100% <br>
+                    ); <br> } </code>
+            </div>
+        </div>
+
+        <!--Box five-->
+        <div class ="box" id="five">
+            <div class="titles">
+                <h2>Box transition glow</h2>
+            </div>
+
+            <div class="description">
+                <p>Use transition and box shadows to glow on hover</p>
+                <code>.code-card card-header { <br> 
+                    border-radius: 8px; <br>
+                    transition: all 0.5s ease-in-out <br>
+                    } <br> <br>
+                    
+                    .code-card: hover, <br>
+                    .code-card: hover .card-header {<br> 
+                    box-shadow: inset 0px 0px 8px; <br>
+                    rgba(232, 102, 236, 1), 0 0 15px <br>
+                    rgba(232, 102, 236, 1), 0 0 15px; <br> 
+                    }
+                </code>
+            </div>
+        </div>
+
+        <!--Box six-->
+        <div class ="box" id="six">
+            <div class="titles">
+                <h2>Overlay card with title</h2>
+            </div>
+
+            <div class="description">
+                <p>Use this to create a flexbox column layout</p>
+                <code>.card header { <br> 
+                    position: relative; <br> 
+                    margin-top: -20px; <br> 
+                    } 
+                </code>
+            </div>
         </div>
     </section>
 
