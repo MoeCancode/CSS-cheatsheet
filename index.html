@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="main-title">
         <h1>CSS Cheatsheets</h1>
     </header>
     <hr>
 
     <!--This section is creating the 6 cards. Each card falls in the "box" class and has a unique id incase we need 
         to target it specifically-->
-    <section>
+    <div id="flex-container">
         <!--Box one-->
         <div class ="box" id="one">
             <div class="titles">
@@ -43,11 +43,12 @@
 
             <div class="description">
                 <p>Use this to create a flexbox column layout</p>
-                <code>.column { <br> 
+                <code> <br>
+                    .column { <br> 
                     display: flex; <br> 
                     flex-direction: column; <br> 
-                    } 
-                </code>
+                    } <br>
+                </code> 
             </div>
         </div>
 
@@ -76,7 +77,8 @@
             </div>
 
             <div class="description">
-                <p>This will create a background linear gradient from top to bottom</p>
+                <p>This will create a background linear gradient<br> 
+                    from top to bottom</p>
                 <code>.linear-gradient-background { <br> 
                     background-image: linear-gradient(<br>
                     rgba(232, 102, 236, 0.3) 0%, <br>
@@ -92,7 +94,8 @@
             </div>
 
             <div class="description">
-                <p>Use transition and box shadows to glow on hover</p>
+                <p>Use transition and box shadows to glow <br> 
+                    on hover</p>
                 <code>.code-card card-header { <br> 
                     border-radius: 8px; <br>
                     transition: all 0.5s ease-in-out <br>
@@ -123,7 +126,7 @@
                 </code>
             </div>
         </div>
-    </section>
+    </div>
 
 
 </body>
