@@ -67,3 +67,7 @@ body {
 #four, #five, #six {
     height: 345px;
 }
+
+pre {
+    user-select: all;
+}
