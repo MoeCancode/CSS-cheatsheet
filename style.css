@@ -1,3 +1,8 @@
+:root {
+    --border-color: white;
+    --color: white;
+}
+
 body {
     background-color: rgb(44, 44, 44);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -10,9 +15,7 @@ body {
     padding: 0px;
     top: 0 ;
 }
-header, footer {
-    
-}
+
 #summary {
     font-size: smaller;
 }
@@ -22,7 +25,7 @@ header, footer {
     font-size: 26px;
     border: 1.5px;
     border-style: solid;
-    border-color: white;
+    border-color: var(--border-color);
     background-color: rgb(44, 44, 44);
     border-radius: 15px;
     margin-top: -34px;
@@ -44,7 +47,7 @@ header, footer {
     position: relative;
     padding: 20px;
     border: 1.5px;
-    border-color: white;
+    border-color: var(--border-color);
     border-style: dashed;
     margin: 17px;
     flex-basis:  350px; 
@@ -52,12 +55,12 @@ header, footer {
 }
 
 .box:hover {
-    color: rgba(255, 255, 255, 1);
+    color: var(--color);
     box-shadow: 0 15px 15px rgba(123, 59, 168, 0.7);
   }
 
 .titles:hover {
-    color: rgba(255, 255, 255, 1);
+    color: var(--color);
     box-shadow: 0 15px 15px rgba(123, 59, 168, 0.7);
   }
 
