@@ -1,7 +1,7 @@
 body {
     background-color: rgb(78, 78, 78);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(184, 109, 255);
+    color: rgb(163, 67, 253);
 }
 
 .main-title {
@@ -37,12 +37,12 @@ body {
     border-color: white;
     border-style: dashed;
     margin: 17px;
-    flex-basis:  350px;   
+    flex-basis:  350px; 
 }
 
 .codebox {
     color: white;
-    background-color:black;
+    background-image: linear-gradient(0, rgb(0, 1, 5), rgb(84, 1, 161));
     padding: 10px;
     border-radius: 10px;
 }
