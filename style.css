@@ -7,6 +7,14 @@ body {
 .main-title {
     text-align: center;
     text-decoration: solid;
+    padding: 0px;
+    top: 0 ;
+}
+header, footer {
+    
+}
+#summary {
+    font-size: smaller;
 }
 
 .titles {
@@ -70,4 +78,11 @@ body {
 
 pre {
     user-select: all;
+    font-family: monospace;
+    white-space: pre-line; /*Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks;w3school*/
+    margin: 1em 0;
+}
+
+footer {
+    text-align: center;
 }
