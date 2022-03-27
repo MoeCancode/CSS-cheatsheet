@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(44, 44, 44);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(163, 67, 253);
 }
@@ -15,12 +15,13 @@ body {
     border: 1.5px;
     border-style: solid;
     border-color: white;
-    background-color: rgb(78, 78, 78);;
+    background-color: rgb(44, 44, 44);;
     border-radius: 15px;
     margin: 0px;
     padding: 3px;
     position: relative;
     top: -34px;
+    transition: all 0.4s ease-in-out;
 }
 
 #flex-container {
@@ -38,7 +39,18 @@ body {
     border-style: dashed;
     margin: 17px;
     flex-basis:  350px; 
+    transition: all 0.4s ease-in-out;
 }
+
+.box:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 15px 15px rgba(123, 59, 168, 0.7);
+  }
+
+.titles:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 15px 15px rgba(123, 59, 168, 0.7);
+  }
 
 .codebox {
     color: white;
